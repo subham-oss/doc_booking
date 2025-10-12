@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import "tailwindcss";
+@layer utilities {
+    .primary {
+        background-color: #5f6FFF;
+    }
+    .textprimary {
+        color: #5f6FFF;
+    }
+    .broderprimary {
+        border-color: #5f6FFF;
+    }
+    .auto{
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    .hoverprimary:hover{
+
+        background-color: #5f6FFF;
+      
+    }
+    .active p{
+      background-color: #5f6FFF;
+      color: rgb(255, 255, 255);
+  }
+  }
+  *{
+    font-family: 'Lora';
+  }
+  .active hr{
+    @apply block;
+  }
+  
+::-webkit-scrollbar{
+  @apply hidden;
+}
