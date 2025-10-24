@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { assetspic } from "../assets/assets_frontend/assets";
 import { NavLink } from "react-router-dom";
-import { AppContext } from "../context/AppContext";
+import { AppContext } from "../context/AppContext.jsx";
 const Navbar = () => {
   const navigate = useNavigate();
   const {token,settoken,userdata}= useContext(AppContext)
