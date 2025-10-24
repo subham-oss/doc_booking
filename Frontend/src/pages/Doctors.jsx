@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router";
-import { AppContext } from "../context/Appcontext";
+import { AppContext } from "../context/AppContext.jsx";
 import { useNavigate } from 'react-router'
 const Doctors = () => {
   const { specialization } = useParams();
